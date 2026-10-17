@@ -1,0 +1,7 @@
+node_modules/
+.env
+server/data/*.json
+apps/desktop/dist/
+apps/mobile/android/
+apps/mobile/ios/
+.DS_Store

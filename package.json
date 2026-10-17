@@ -1,0 +1,16 @@
+{
+  "name": "gestion-ventas-inventario-multiplataforma",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MVP multiplataforma para gestionar productos, inventario y ventas",
+  "workspaces": ["server", "apps/desktop", "apps/mobile"],
+  "scripts": {
+    "start": "npm --workspace server start",
+    "dev": "npm --workspace server run dev",
+    "test": "npm --workspace server test",
+    "desktop": "npm --workspace apps/desktop start",
+    "desktop:build": "npm --workspace apps/desktop run build",
+    "mobile:sync": "npm --workspace apps/mobile run sync"
+  },
+  "engines": {"node": ">=18"}
+}
